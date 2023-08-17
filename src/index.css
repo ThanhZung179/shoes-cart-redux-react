@@ -58,3 +58,45 @@ body {
   position: relative;
   margin-bottom: 20px;
 }
+
+.card::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: #f6c90e;
+  top: -20%;
+  left: -50%;
+  z-index: 0;
+}
+
+.cardTop {
+  margin: 12px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardTop img {
+  display: absolute;
+  width: 50px;
+}
+
+.cardBody {
+  height: calc(100% - 135px);
+  position: relative;
+  overflow-y: auto;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
