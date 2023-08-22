@@ -23,5 +23,5 @@ List of features in your Shoes Cart Redux React App:
 
 Provide a link to an online demo or a video that showcases the functionality of your app.
 
-[Demo Link](https://shoes-cart-redux-react.vercel.app/))
+[Demo Link](https://shoes-cart-redux-react.vercel.app/)
 
